@@ -1,0 +1,89 @@
+
+
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 400px;
+    max-width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.admin-form input,
+.admin-form textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.admin-form button {
+    padding: 0.6rem;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.admin-form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* ERRO */
+.error {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/* CARTÃO DO PRODUTO */
+.produto-card {
+    border: 2px solid #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    max-width: 600px;
+    text-align: left;
+}
+
+.produto-card img {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* BOTÃO DE REMOVER */
+.remover-form {
+    margin-top: 0.5rem;
+}
+
+.remover-form button {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.remover-form button:hover {
+    background-color: red;
+    color: #fff;
+}
